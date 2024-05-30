@@ -1,0 +1,7 @@
+{
+  "name": "menu-keyboard-ng",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
