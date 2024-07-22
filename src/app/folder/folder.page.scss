@@ -2,13 +2,22 @@ ion-menu-button {
   color: var(--ion-color-primary);
 }
 
-ion-button {
-  --background: linear-gradient(to right, orange, blue);
-  --color: var(--wr-color-white);
-  --transition: background-color 0.5s ease;
+ion-button::part(native) {
+  transition: all ease 0.5s;
+  cursor: pointer;
+  padding: 10.5px 25px;
+  border: none;
+  border-radius: 35px;
 
+  background-image: linear-gradient(to left, black, blue, yellow, orange);
+  background-size: 300%;
+  background-position: 0 0;
+  -webkit-appearance: none !important;
+  color: #000;
+  text-decoration: none;
   &:hover {
-    --background: linear-gradient(to right, blue, orange);
+    background-position: 100% 0;
+    color: #fff;
   }
 }
 
