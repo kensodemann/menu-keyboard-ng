@@ -14,7 +14,6 @@ import {
   selector: 'app-folder',
   templateUrl: './folder.page.html',
   styleUrls: ['./folder.page.scss'],
-  standalone: true,
   imports: [IonButton, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent],
 })
 export class FolderPage implements OnInit {
