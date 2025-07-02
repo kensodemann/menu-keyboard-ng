@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import {
@@ -41,7 +40,6 @@ import {
   imports: [
     RouterLink,
     RouterLinkActive,
-    CommonModule,
     IonApp,
     IonSplitPane,
     IonMenu,

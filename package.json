@@ -14,14 +14,14 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^19.2.14",
-    "@angular/common": "^19.2.14",
-    "@angular/compiler": "^19.2.14",
-    "@angular/core": "^19.2.14",
-    "@angular/forms": "^19.2.14",
-    "@angular/platform-browser": "^19.2.14",
-    "@angular/platform-browser-dynamic": "^19.2.14",
-    "@angular/router": "^19.2.14",
+    "@angular/animations": "^20.0.6",
+    "@angular/common": "^20.0.6",
+    "@angular/compiler": "^20.0.6",
+    "@angular/core": "^20.0.6",
+    "@angular/forms": "^20.0.6",
+    "@angular/platform-browser": "^20.0.6",
+    "@angular/platform-browser-dynamic": "^20.0.6",
+    "@angular/router": "^20.0.6",
     "@capacitor/android": "^7.0.0",
     "@capacitor/app": "^7.0.0",
     "@capacitor/core": "^7.0.0",
@@ -30,21 +30,21 @@
     "@capacitor/keyboard": "^7.0.0",
     "@capacitor/status-bar": "^7.0.0",
     "@ionic/angular": "^8.6.3-dev.11751478001.1cb7436f",
-    "ionicons": "^8.0.9",
+    "ionicons": "^8.0.10",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^19.2.15",
-    "@angular-eslint/builder": "^18.3.0",
-    "@angular-eslint/eslint-plugin": "^18.3.0",
-    "@angular-eslint/eslint-plugin-template": "^18.3.0",
-    "@angular-eslint/schematics": "^18.3.0",
-    "@angular-eslint/template-parser": "^18.3.0",
-    "@angular/cli": "^19.2.15",
-    "@angular/compiler-cli": "^19.2.14",
-    "@angular/language-service": "^19.2.14",
+    "@angular-eslint/builder": "^20.1.1",
+    "@angular-eslint/eslint-plugin": "^20.1.1",
+    "@angular-eslint/eslint-plugin-template": "^20.1.1",
+    "@angular-eslint/schematics": "^20.1.1",
+    "@angular-eslint/template-parser": "^20.1.1",
+    "@angular/build": "^20.0.5",
+    "@angular/cli": "^20.0.5",
+    "@angular/compiler-cli": "^20.0.6",
+    "@angular/language-service": "^20.0.6",
     "@capacitor/assets": "~3.0.5",
     "@capacitor/cli": "^7.0.0",
     "@ionic/angular-toolkit": "^12.2.0",
@@ -52,9 +52,9 @@
     "@types/jasmine": "~5.1.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
-    "eslint": "~8.57.0",
+    "eslint": "^9.30.1",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsdoc": "~50.2.1",
+    "eslint-plugin-jsdoc": "^51.3.3",
     "eslint-plugin-prefer-arrow": "~1.2.3",
     "husky": "~9.1.4",
     "jasmine-core": "^5.8.0",
@@ -66,16 +66,12 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "lint-staged": "^16.1.2",
     "prettier": "^3.4.2",
-    "typescript": "5.5"
+    "typescript": "5.8.3"
   },
   "description": "An Ionic project",
   "prettier": "@ionic/prettier-config",
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,html}": [
-      "prettier --write",
-      "eslint --fix"
-    ],
-    "*.{css,scss,md,json}": [
+    "*.{js,jsx,ts,tsx,css,scss,md,json,html}": [
       "prettier --write"
     ]
   }
